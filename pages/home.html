@@ -1,0 +1,50 @@
+<head>
+    <link rel="stylesheet" href="../dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <script src="../dist/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/jpg" href="../images/aguila.jpg">
+    <title>El puly</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<!--esta pagina es para las citas-->
+<body>
+    <header>
+        <div>
+            <ul>
+                <a href="../index.html">Inicio</a>
+            </ul>
+        </div>
+    </header>
+    <h4>Para agendar su previa cita proporcione sus datos correspondientes</h4>
+
+    <div class="contenedor">
+    <img src="../images/imagen3.jpg" alt="imagen3">
+
+    <div class="texto">
+        <h5 class="contacto">Contacto</h5>
+        <ul>elpuly23@outlook.es</ul>
+        <ul>tel: 01020304</ul>
+        <form action="registrardatos.php" method="post">
+            Ingrese su nombre:
+            <input type="text" name="nombre"><br>
+            Ingrese su correo:
+            <input type="email" name="email"><br>
+            Motivo de su visita:
+            <select name="visita">
+                <option value="1">Diagnostico</option>
+                <option value="2">Mantenimiento preventivo</option>
+                <option value="3">Mantenimiento correctivo</option>
+                <option value="4">Reparacion</option>
+            </select>
+            <br>
+            Fecha de su visita:
+            <input type="date" name="fecha"><br>
+            Hora en la que nos visita:
+            <input type="time" name="horario"><br>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar datos">
+        </form>
+    </div>
+    </div>
+    <footer>
+    </footer>
+</body>

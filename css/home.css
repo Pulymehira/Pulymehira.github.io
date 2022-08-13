@@ -1,0 +1,33 @@
+body{
+    background-color: khaki;
+}
+ul a{
+    width: 120px;
+    height: 120px;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+}
+ul a:hover{
+    color: purple;
+    background-color: rgb(63, 151, 64);
+}
+ul :active{
+    color: teal;
+}
+img{
+    width: 85vh;
+}
+h4{
+    color: chocolate;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    border-top: 1rem;
+}
+.texto{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    background-color: rgb(176, 238, 226);
+}

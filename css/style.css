@@ -1,0 +1,32 @@
+body{
+    background-color: darkkhaki;
+}
+h2{
+    color:mediumblue;
+}
+ul a{
+    width: 120px;
+    height: 120px;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+}
+ul a:hover{
+    color: purple;
+    background-color: rgb(63, 151, 64);
+}
+ul :active{
+    color: teal;
+}
+.contenedor{
+    display: flex;
+    border-top: 1rem;
+}
+.texto{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    background-color:floralwhite;
+}
+.horario{
+    color:steelblue;
+}
